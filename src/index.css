@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  color: #ccc;
+}
+
+h2 {
+  color: rgb(46, 45, 43);
+}
+
+.contenedor {
+  margin: 10px 30px;
+}
+
+.carta {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 18rem;
+}
+
+.carta-imagen {
+  width: 100%;
+}
+
+.carta-body {
+  padding: 10px;
 }
